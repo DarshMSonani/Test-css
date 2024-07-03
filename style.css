@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding: 35px;
+}
+
+.background {
+    background-image: url("./Assets/image/bg-image-25.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: auto;
+}
+
+.logo img {
+    height: 65px;
+    width: 65px;
+    cursor: pointer;
+}
+
+.left ul {
+    display: flex;
+    cursor: pointer;
+}
+
+.left ul li {
+    /* display: flex; */
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 11px;
+    /* margin: 10px; */
+}
+
+.left ul li:hover {
+    color: rgb(249, 0, 77);
+    transition: 0.2s ease-in-out;
+}
+
+.right {
+    display: flex;
+    position: relative;
+    left: 500px;
+    justify-content: end;
+    padding: 10px;
+}
+
+.right ul {
+    display: flex;
+    cursor: pointer;
+    left: 0;
+}
+
+/* margin: 10px; */
+.right ul li {
+    list-style: none;
+    cursor: pointer;
+    gap: 3px;
+    padding: 3px 15px;
+}
+
+
+.right ul button {
+    height: 40px;
+    letter-spacing: 1px;
+    width: 120px;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    bottom: 5px;
+}
+
+.right ul button:hover {
+    background-color: rgb(249, 0, 77);
+    color: white;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+
+.row {
+    margin: 65px;
+    padding: 0 100px;
+}
+
+.row :nth-child(1) {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.row .des {
+    font-weight: 900;
+    font-size: 75px;
+}
+
+.row .des span {
+    color: rgb(249, 0, 77);
+    font-weight: 900;
+    font-size: 75px;
+}
+
+.container {
+    padding: 150px 250px;
+    display: flex;
+    gap: 30px;
+}
+
+.container .img img {
+    height: 500px;
+    border-radius: 10px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.about .about-1 {
+    font-weight: 700;
+    font-size: 60px;
+    position: relative;
+    top: 18px;
+}
+
+.about .about-2 {
+    font-weight: 300;
+    font-size: 18px;
+    position: relative;
+    top: 18px;
+}
+
+.about .aboutBtn {
+    position: relative;
+    top: 40px;
+    /* padding: 10px 0; */
+}
+
+.about .aboutBtn .aboutHover {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.about .aboutBtn .aboutHover:hover {
+    color: rgb(249, 0, 77);
+    transition: 0.2s ease-in-out;
+}
+
+.about .aboutDes {
+    position: relative;
+    top: 50px;
+}
+
+.about .aboutDesSpan :nth-child(1) {
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.about .aboutDesSpan :nth-child(1):hover {
+    color: rgb(249, 0, 77);
+    transition: 0.2s ease-in-out;
+}
+
+.about .aboutDesSpan :nth-child(2) {
+    /* padding: 10px 0; */
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.service {
+    background-color: #F8F9FC;
+    padding: 125px 0;
+}
+
+.service .serviceHeading {
+    /* padding: 80px 0; */
+    text-align: center;
+}
+
+.service .serviceHeading :nth-child(1) {
+    font-weight: 700;
+    font-size: 60px
+}
+
+.service .serviceHeading :nth-child(2) {
+    font-weight: 300;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.service .serviceBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 70px;
+    padding: 25px 175px;
+}
+
+.service .serviceBox .servicInnerBox {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    padding: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.service .serviceBox .servicInnerBox span i {
+    color: rgb(249, 0, 77);
+    padding: 25px 0;
+}
+
+.project {
+    padding: 125px 0;
+}
+
+.project .projectHeading {
+    text-align: center;
+}
+
+.project .projectHeading :nth-child(1) {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.project .projectHeading :nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+.project .projectBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 65px;
+    /* height: 784px; */
+    padding: 10px 170px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+
+
+.project .projectInnerBox :nth-child(1) {
+    position: relative;
+    top: 263px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.project .projectInnerBox :nth-child(2) {
+    position: relative;
+    top: 300px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.project .projectInnerBox button {
+    position: relative;
+    top: 327px;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.project .projectInnerBox button:hover {
+    background-color: rgb(249, 0, 77);
+    border: none;
+    transition: 0.3s ease-in-out;
+}
+
+.p1 {
+    background-image: url("/Assets/image/portfolio-static-01-390x532.jpg");
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    filter: brightness(0.8);
+    border-radius: 10px;
+}
+
+.p2 {
+    background-image: url("/Assets/image/portfolio-8.jpg");
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    filter: brightness(0.8);
+    border-radius: 10px;
+}
+
+.p3 {
+    background-image: url("/Assets/image/portfolio-7.jpg");
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    filter: brightness(0.8);
+    border-radius: 10px;
+}
+
+.p4 {
+    background-image: url("/Assets/image/portfolio-6-390x532.jpg");
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    filter: brightness(0.8);
+    border-radius: 10px;
+}
+
+.p5 {
+    background-image: url("/Assets/image/portfolio-1-390x532.jpg");
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    filter: brightness(0.8);
+    border-radius: 10px;
+}
+
+.p6 {
+    background-image: url("/Assets/image/portfolio-5-390x532.jpg");
+    background-size: cover;
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    filter: brightness(0.8);
+    border-radius: 10px;
+}
+
+.news {
+    background-color: #f8f9fc;
+}
+
+.news .newsHeading {
+    text-align: center;
+    padding: 125px 0;
+}
+
+.news .newsHeading :nth-child(1) {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.news .newsHeading :nth-child(2) {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.news .newsBox {
+    padding: 0 145px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: white;
+    cursor: pointer;
+}
+
+.news .newsBox .newsInnerBox img {
+    width: 381px;
+    height: 519px;
+    border-radius: 10px;
+}
+
+.news .newsBox .newsInnerBox :nth-child(2) {
+    padding: 0 25px;
+    position: relative;
+    bottom: 145px;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(198, 201, 216);
+}
+
+.news .newsBox .newsInnerBox :nth-child(3) {
+    padding: 0 25px;
+    position: relative;
+    bottom: 135px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.hire {
+    padding: 150px 250px;
+    display: flex;
+    gap: 40px;
+}
+
+.hire .hireImg img {
+    height: 500px;
+    border-radius: 10px;
+}
+
+.hire .hireSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.hire .hireSection .hireSection-1 {
+    font-weight: 700;
+    font-size: 60px;
+    position: relative;
+    top: 18px;
+}
+
+.hire .hireSection .hireSection-2 {
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    top: 18px;
+}
+
+.hire .hireSection .hover {
+    cursor: pointer;
+}
+
+.hire .hireSection .hover:hover {
+    color: rgb(249, 0, 77);
+    transition: 0.2s ease-in-out;
+}
+
+.hire .saperation {
+    position: relative;
+    top: 50px;
+    right: 10px;
+}
+
+.hire .input {
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.hire .input input {
+    border: 1px solid gray;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    height: 25px;
+    width: 533px;
+    border-radius: 5px;
+}
+
+.hire .input input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.hire .input p textarea {
+    border: 1px solid gray;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    height: 60px;
+    width: 533px;
+    border-radius: 5px;
+}
+
+.hire .input p textarea::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+}
+
+.hire .saperation .button {
+    padding: 0 10px;
+}
+
+.hire .saperation .button button {
+    height: 50px;
+    width: 165px;
+    background-color: rgb(249, 0, 77);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.hire .saperation .button button:hover {
+    background-color: white;
+    color: rgb(249, 0, 77);
+    border: 1px solid rgb(249, 0, 77);
+    outline: 1px rgb(249, 0, 77);
+    transition: 0.3s ease-in-out;
+}
+
+footer {
+    background-color: #1C1D23;
+    height: auto;
+    width: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .footerImg img {
+    height: 65px;
+    padding: 16px 50px;
+    cursor: pointer;
+}
+
+footer .footerImg span {
+    position: relative;
+    bottom: 35px;
+    right: 40px;
+    font-weight: 700;
+    font-size: 39px;
+    cursor: pointer;
+}
+
+footer .fontAwosome {
+    padding: 35px;
+    text-align: center;
+    margin: 10px;
+}
+
+footer .fontAwosome span {
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+}
+
+footer .copyRight {
+    font-weight: 400;
+    font-size: 14px;
+    padding: 50px;
+}
