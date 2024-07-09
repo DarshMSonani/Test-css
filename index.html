@@ -20,70 +20,85 @@
     <div class="background">
         <header>
             <nav>
-                <div class="logo">
-                    <img src="./Assets/image/logo-symbol-dark.png" alt="">
-                </div>
-                <div class="left">
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Services</li>
-                        <li>Portfolio</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-                <div class="right">
-                    <ul>
-                        <li><i class="fa-brands fa-facebook-f"></i></li>
-                        <li><i class="fa-brands fa-twitter"></i></li>
-                        <li><i class="fa-brands fa-linkedin-in"></i></li>
-                        <li><i class="fa-brands fa-instagram"></i></li>
-                        <li><i class="fa-solid fa-cart-shopping"></i></li>
-                        <button>LET'S TALK</button>
-                    </ul>
+                <div class="nav">
+                    <div class="left">
+                        <div class="logo">
+                            <img src="./Assets/image/logo-symbol-dark.png" alt="">
+                        </div>
+                        <ul class="sideBar">
+                            <li class="hide" onclick="hideSideBar()"><i class="fa-solid fa-xmark fa-2xl"></i></li>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Services</li>
+                            <li>Portfolio</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                        </ul>
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Services</li>
+                            <li>Portfolio</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div>
+                    <div class="right">
+                        <ul>
+                            <li><i class="fa-brands fa-facebook-f"></i></li>
+                            <li><i class="fa-brands fa-twitter"></i></li>
+                            <li><i class="fa-brands fa-linkedin-in"></i></li>
+                            <li><i class="fa-brands fa-instagram"></i></li>
+                            <li><i class="fa-solid fa-cart-shopping"></i></li>
+                            <button>LET'S TALK</button>
+                            <li class="togleButton" onclick="showSideBar()"><i class="fa-solid fa-bars"></i></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
         </header>
 
         <div class="row">
-            <div>WEB DEVELOPER & DESIGNER</div>
+            <div class="rowTitle">WEB DEVELOPER & DESIGNER</div>
 
-            <div class="des">Hello, I’m <span class="red">Darsh</span> <br> Welcome to my <br> World.</div>
+            <div class="rowDes">Hello, I’m <span class="red">Darsh</span> <br> Welcome to my <br> World.</div>
         </div>
     </div>
 
     <div class="container">
-        <div class="img">
-            <img src="./Assets/image/about-7.jpg" alt="">
+        <div class="containerImg">
+            <img src="Assets/image/about-7.jpg" alt="">
         </div>
-        <div class="about">
-            <span class="about-1">About Me</span>
-            <span class="about-2">There are many variations of passages of Lorem Ipsum available, but the majority have
+        <div class="containerSection">
+            <span class="containerSection-1">About Me</span>
+            <span class="containerSection-2">There are many variations of passages of Lorem Ipsum available, but the
+                majority
+                have
                 suffered
                 alteration in some form,
                 by injected humour, or randomised words which dont look even slightly believable. If you are going to
                 use a passage of
                 Lorem Ipsum,
             </span>
-            <div class="aboutBtn">
-                <span class="aboutHover">Main skills</span>
-                <span class="aboutHover">Awards</span>
-                <span class="aboutHover">Experience</span>
-                <span class="aboutHover">Education & Certification</span>
-            </div>
-            <div class="aboutDes">
-                <span class="aboutDesSpan">
-                    <p>User experience design - UI/UX </p>
-                    <p>Delight the user and make it work.</p>
+
+            <div class="containerSaperation">
+                <span class="containerDes">
+                    <span class="aboutHover" onclick="skillShow()">Main skills</span>
+                    <span class="aboutHover" onclick="awardShow()">Awards</span>
+                    <span class="aboutHover" onclick="experienceShow()">Experience</span>
+                    <span class="aboutHover" onclick="educationShow()">Education & Certification</span>
                 </span>
-                <span class="aboutDesSpan">
-                    <p>Web and user interface design - Development</p>
-                    <p>Websites, web experiences, ...</p>
+                <span class="containerDes skil">
+                    <p class="aboutTitle">User experience design - UI/UX </p>
+                    <p class="aboutDes">Delight the user and make it work.</p>
                 </span>
-                <span class="aboutDesSpan">
-                    <p>Interaction design - Animation</p>
-                    <p>I like to move it move it.</p>
+                <span class="containerDes skil">
+                    <p class="aboutTitle">Web and user interface design - Development</p>
+                    <p class="aboutDes aboutDes-1">Websites, web experiences, ...</p>
+                </span>
+                </span> <span class="containerDes skil">
+                    <p class="aboutTitle">Interaction design - Animation</p>
+                    <p class="aboutDes">I like to move it move it.</p>
                 </span>
             </div>
         </div>
@@ -180,30 +195,33 @@
 
         <div class="newsBox">
             <div class="newsInnerBox">
-                <img width="390" height="532" src="Assets/image/trydo-blog-new-10-390x532.jpg" alt="">
-                <p>Development</p>
-                <p>Have You Heard? Agency <br> Is Your Best Bet To Grow</p>
+                <img class="newsImg-1" width="390" height="532" src="Assets/image/trydo-blog-new-10-390x532.jpg" alt="">
+                <p class="newsHeading-1">Development</p>
+                <p>Have You Heard? Agency Is Your Best Bet To Grow</p>
             </div>
             <div class="newsInnerBox">
-                <img src="Assets/image/trydo-blog-new-7-390x532.jpg" alt="">
-                <p>Development Gallery</p>
-                <p>Agency Works Only Under <br> These Conditions</p>
+                <img class="newsImg-2" src="Assets/image/trydo-blog-new-7-390x532.jpg" alt="">
+                <p class="newsHeading-2">Development Gallery</p>
+                <p>Agency Works Only Under These Conditions</p>
             </div>
             <div class="newsInnerBox">
-                <img src="Assets/image/trydo-blog-new-8-390x532.jpg" alt="">
-                <p>Development</p>
-                <p>Top 10 Tips To Grow Your <br> Agency</p>
+                <img class="newsImg-3" src="Assets/image/trydo-blog-new-8-390x532.jpg" alt="">
+                <p class="newsHeading-3">Development</p>
+                <p>Top 10 Tips To Grow Your Agency</p>
             </div>
         </div>
     </div>
 
     <div class="hire">
+        <div class="hireImg img-1">
+            <img src="Assets/image/about-6.jpg" alt="">
+        </div>
         <div class="hireSection">
 
             <span class="hireSection-1">Hire Me</span>
             <span class="hireSection-2">I am available for freelance work. Connect with me via phone:
                 <span class="hover"> 01912-123456 </span>or
-                email:<span class="hover"> admin@example.com</span>
+                <span class="hover"> admin@example.com</span>
             </span>
 
             <div class="saperation">
@@ -224,12 +242,12 @@
                 </span>
             </div>
         </div>
-        <div class="hireImg">
+        <div class="hireImg img-2">
             <img src="Assets/image/about-6.jpg" alt="">
         </div>
     </div>
 
-    <footer>
+    <footer class="footer">
         <div class="footerImg">
             <img src="Assets/image/logo-symbol-dark.png" alt=""><span>trydo</span>
         </div>
@@ -242,13 +260,32 @@
         </div>
 
         <div class="copyRight">
-            <span> © 2024. All rights reserved by <span>Rainbow-Themes</span>.</span>
+            <span> © 2024. All rights reserved by <span>Darsh M Sonani</span>.</span>
         </div>
     </footer>
 
     <!-- Font Awosome -->
     <script src="https://kit.fontawesome.com/fb8d4d1a1f.js" crossorigin="anonymous"></script>
+    <script>
+        function showSideBar() {
+            const sideBar = document.querySelector(".sideBar");
+            sideBar.style.display = "flex";
+        }
 
+        function hideSideBar() {
+            const sideBar = document.querySelector(".sideBar");
+            sideBar.style.display = "none";
+        }
+
+        // function educationShow() {
+        //     // const education = document.querySelector(".education");
+        //     // education.style.display = "inline";
+
+        //     const skil = document.querySelector(".skil")
+        //     skil.style.display = "none"
+        // }
+
+    </script>
 </body>
 
 </html>

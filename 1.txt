@@ -1,0 +1,106 @@
+.hire .hireSection-1,
+    .hire .hireSection-2 {
+        padding: 0 0 0 280px;
+    }
+
+    .hire .hireImg {
+        /* display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; */
+        padding: 30px 0 0 300px;
+    }
+
+    .hire .saperation {
+        /* display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; */
+        padding: 30px 0 0 300px;
+    }
+
+@media only screen and (max-width:) {
+    .footer {
+        width: 1000px;
+    }
+
+    .hire .hireSection-1,
+    .hire .hireSection-2 {
+        padding: 0 0 0 280px;
+    }
+
+    .hire .hireImg {
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+        padding: 30px 0 0 300px;
+    }
+
+    .hire .saperation {
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column; */
+        padding: 30px 0 0 300px;
+    }
+}
+
+
+.background {
+        width: 1300px;
+    }
+
+
+
+
+                <span class="containerDes award">
+                    <p class="aboutTitle">Awwwards.com - Winner </p>
+                    <p class="aboutDes">2019 - 2020</p>
+                </span>
+                <span class="containerDes award">
+                    <p class="aboutTitle">CSS Design Awards - Winner</p>
+                    <p class="aboutDes">2017 - 2018</p>
+                </span> <span class="containerDes award">
+                    <p class="aboutTitle">Design nominees - site of the day</p>
+                    <p class="aboutDes">2013- 2014</p>
+                </span>
+
+                <span class="containerDes experience">
+                    <p class="aboutTitle">Sr. Front-end Engineer - Google </p>
+                    <p class="aboutDes">2018 - Current</p>
+                </span>
+                <span class="containerDes experience">
+                    <p class="aboutTitle">Front-end Engineer - Microsoft</p>
+                    <p class="aboutDes">2017 - 2018</p>
+                </span> <span class="containerDes experience">
+                    <p class="aboutTitle">Software Engineer - Alibaba</p>
+                    <p class="aboutDes">2013- 2014</p>
+                </span>
+
+                <span class="containerDes education">
+                    <p class="aboutTitle">BSc In CSE - ABC University, Los Angeles, CA </p>
+                    <p class="aboutDes">2010</p>
+                </span>
+                <span class="containerDes education">
+                    <p class="aboutTitle">Diploma in Computer Science - Gamma Technical Institute</p>
+                    <p class="aboutDes">2009</p>
+                </span>
+                </span> <span class="containerDes education">
+                    <p class="aboutTitle">Graphic Designer - ABC Institute, Los Angeles, CA</p>
+                    <p class="aboutDes">2007</p>
+                </span>
+
+
+                 .left .sideBar {
+        /* width: 60%; */
+        position: fixed;
+        /* padding: 100px 100px; */
+        /* font-weight: 500; */
+        /* font-size: 16px; */
+    }
+    .left .sideBar {
+        width: 50%;
+        /* padding: 80px 70px; */
+        z-index: 99;
+    }
