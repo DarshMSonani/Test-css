@@ -839,8 +839,10 @@ body {
 
 
     .container .containerImg img {
-        height: 905px;
-        width: 687px;
+        /* height: 905px;
+        width: 687px; */
+        height: 100vw;
+        width: 100vw;
     }
 
     .container .containerSection {
@@ -1024,7 +1026,7 @@ body {
     }
 
     .container {
-        padding: 100px 0 0 280px;
+        padding: 100px 0 0 300px;
     }
 
     .container .containerImg {
@@ -1125,16 +1127,17 @@ body {
     }
 
     .container {
-        padding: 100px 0 0 280px;
+        padding: 100px 0 0 300px;
     }
 
+    /* 
     .container .containerImg {
         padding: 0 0 0 280px;
     }
 
     .container .containerSection {
         padding: 0 0 0 280px;
-    }
+    } */
 
     .service .serviceBox .servicInnerBox {
         width: 80vw;
@@ -1181,8 +1184,8 @@ body {
 @media only screen and (max-width:575px) {
 
     .container {
-        transition: 0.5s ease-in-out;
-        /* padding: 100px 0 0 350px; */
+        /* transition: 0.5s ease-in-out; */
+        padding: 100px 0 0 450px;
     }
 
     .service .serviceBox {
