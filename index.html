@@ -18,234 +18,290 @@
 
 <body>
     <div class="background">
-        <header>
-            <nav>
-                <div class="nav">
-                    <div class="left">
-                        <div class="logo">
-                            <img src="./Assets/image/logo-symbol-dark.png" alt="">
-                        </div>
-                        <ul class="sideBar">
-                            <li class="hide" onclick="hideSideBar()"><i class="fa-solid fa-xmark fa-2xl"></i></li>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Services</li>
-                            <li>Portfolio</li>
-                            <li>Blog</li>
-                            <li>Contact</li>
-                        </ul>
-                        <ul>
-                            <li>Home</li>
-                            <li>About</li>
-                            <li>Services</li>
-                            <li>Portfolio</li>
-                            <li>Blog</li>
-                            <li>Contact</li>
-                        </ul>
+
+        <nav>
+            <div class="nav">
+                <div class="left">
+                    <div class="logo">
+                        <img src="./Assets/image/logo-symbol-dark.png" alt="">
                     </div>
-                    <div class="right">
-                        <ul>
-                            <li><i class="fa-brands fa-facebook-f"></i></li>
-                            <li><i class="fa-brands fa-twitter"></i></li>
-                            <li><i class="fa-brands fa-linkedin-in"></i></li>
-                            <li><i class="fa-brands fa-instagram"></i></li>
-                            <li><i class="fa-solid fa-cart-shopping"></i></li>
-                            <button>LET'S TALK</button>
-                            <li class="togleButton" onclick="showSideBar()"><i class="fa-solid fa-bars"></i></li>
-                        </ul>
-                    </div>
+                    <ul class="sideBar">
+                        <li class="hide" onclick="hideSideBar()"><i class="fa-solid fa-xmark fa-2xl"></i></li>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Portfolio</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Portfolio</li>
+                        <li>Blog</li>
+                        <li>Contact</li>
+                    </ul>
                 </div>
-            </nav>
-        </header>
+                <div class="right">
+                    <ul>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-solid fa-cart-shopping"></i></li>
+                        <button>LET'S TALK</button>
+                        <li class="togleButton" onclick="showSideBar()"><i class="fa-solid fa-bars"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
         <div class="row">
-            <div class="rowTitle">WEB DEVELOPER & DESIGNER</div>
-
-            <div class="rowDes">Hello, I’m <span class="red">Darsh</span> <br> Welcome to my <br> World.</div>
+            <div class="text-content">
+                <h2 class="title">Freelance Digital Designer</h2>
+                <h1 class="main-text">Hello, I'm <span class="highlight">Darsh</span><br>Welcome to my World.</h1>
+            </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="containerImg">
-            <img src="Assets/image/about-7.jpg" alt="">
-        </div>
-        <div class="containerSection">
-            <span class="containerSection-1">About Me</span>
-            <span class="containerSection-2">There are many variations of passages of Lorem Ipsum available, but the
-                majority
-                have
-                suffered
-                alteration in some form,
-                by injected humour, or randomised words which dont look even slightly believable. If you are going to
-                use a passage of
-                Lorem Ipsum,
-            </span>
+    <div class="about-me">
+        <div class="about">
+            <img src="./Assets/image/about-7.jpg" class="pic" />
+            <div class="aboutText">
+                <h2 class="aboutText-1">About Me</h2>
+                <h5 class="aboutText-2">There are many variations of passages of Lorem Ipsum available, but the majority
+                    have suffered
+                    <span class="hover">alteration</span> in some form,
+                    by injected humour, or randomised words which dont look even slightly believable. If you are
+                    going
+                    to use a passage of
+                    Lorem Ipsum,
+                </h5>
+                <p class="aboutBtn">
+                    <span>Main skills</span>
+                    <span>Awards</span>
+                    <span>Experience</span>
+                    <span>Education & Certification</span>
+                </p>
 
-            <div class="containerSaperation">
-                <span class="containerDes">
-                    <span class="aboutHover" onclick="skillShow()">Main skills</span>
-                    <span class="aboutHover" onclick="awardShow()">Awards</span>
-                    <span class="aboutHover" onclick="experienceShow()">Experience</span>
-                    <span class="aboutHover" onclick="educationShow()">Education & Certification</span>
-                </span>
-                <span class="containerDes skil">
-                    <p class="aboutTitle">User experience design - UI/UX </p>
-                    <p class="aboutDes">Delight the user and make it work.</p>
-                </span>
-                <span class="containerDes skil">
-                    <p class="aboutTitle">Web and user interface design - Development</p>
-                    <p class="aboutDes aboutDes-1">Websites, web experiences, ...</p>
-                </span>
-                </span> <span class="containerDes skil">
-                    <p class="aboutTitle">Interaction design - Animation</p>
-                    <p class="aboutDes">I like to move it move it.</p>
-                </span>
+                <p class="aboutBtnDesc">
+                <p class="aboutTitle aboutTitle-1">User experience design - UI/UX </p>
+                <p class="aboutDes">Delight the user and make it work.</p>
+                </p>
+                <p class="aboutBtnDesc">
+                <p class="aboutTitle aboutTitle-2">Web and user interface design - Development</p>
+                <p class="aboutDes aboutDes-1">Websites, web experiences, ...</p>
+                </p>
+                <p class="aboutBtnDesc">
+                <p class="aboutTitle aboutTitle-3">Interaction design - Animation</p>
+                <p class="aboutDes">I like to move it move it.</p>
+                </p>
             </div>
         </div>
     </div>
 
     <div class="service">
         <div class="serviceHeading">
-            <p>My Awesome Service</p>
-            <p>There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered
+            <h2 class="serviceHeading-1">My Awesome Service</h2>
+            <p class="serviceHeading-2">There are many variations of passages of Lorem Ipsum
+                available, but the
+                majority have suffered
                 alteration.</p>
         </div>
 
         <div class="serviceBox">
-            <div class="servicInnerBox">
-                <span><i class="fa-solid fa-tablet fa-2xl"></i></span><br>
-                <span>Business Stratgy</span><br>
-                <span>I throw myself down among the tall grass by the stream as I lie close to the earth.</span>
+            <div class="serviceCard c-1">
+                <div class="icon">
+                    <i class="fa-solid fa-tablet fa-2xl"></i>
+                </div>
+                <h3>Business Stratgy</h3>
+                <p>
+                    I throw myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
             </div>
-            <div class="servicInnerBox">
-                <span><i class="fa-solid fa-layer-group fa-2xl"></i></span><br>
-                <span>Websites Development</span><br>
-                <span>I throw myself down among the tall grass by the stream as I lie close to the earth.</span>
+            <div class="serviceCard c-2">
+                <div class="icon">
+                    <i class="fa-solid fa-layer-group fa-2xl"></i>
+                </div>
+                <h3>Websites Development</h3>
+                <p>
+                    I throw myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
             </div>
-            <div class="servicInnerBox">
-                <span><i class="fa-solid fa-user fa-2xl"></i></span><br>
-                <span>Marketing & Reportig</span><br>
-                <span>I throw myself down among the tall grass by the stream as I lie close to the earth.</span>
+
+            <div class="serviceCard c-3">
+                <div class="icon">
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                </div>
+                <h3>Marketing & Reportig</h3>
+                <p>
+                    I throw myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
             </div>
-            <div class="servicInnerBox">
-                <span><i class="fa-solid fa-desktop fa-2xl"></i></span><br>
-                <span>Mobile Development</span><br>
-                <span>I throw myself down among the tall grass by the stream as I lie close to the earth.</span>
+
+            <div class="serviceCard c-4">
+                <div class="icon">
+                    <i class="fa-solid fa-desktop fa-2xl"></i>
+                </div>
+                <h3>Mobile Development</h3>
+                <p>
+                    I throw myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
             </div>
-            <div class="servicInnerBox">
-                <span><i class="fa-solid fa-camera fa-2xl"></i></span><br>
-                <span>Marketing & Reporting</span><br>
-                <span>I throw myself down among the tall grass by the stream as I lie close to the earth.</span>
+
+            <div class="serviceCard c-5">
+                <div class="icon">
+                    <i class="fa-solid fa-camera fa-2xl"></i>
+                </div>
+                <h3>Marketing & Reporting</h3>
+                <p>
+                    I throw myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
             </div>
-            <div class="servicInnerBox">
-                <span><i class="fa-solid fa-wave-square fa-2xl"></i></span><br>
-                <span>Mobile Development</span><br>
-                <span>I throw myself down among the tall grass by the stream as I lie close to the earth.</span>
+            <div class="serviceCard c-6">
+                <div class="icon">
+                    <i class="fa-solid fa-wave-square fa-2xl"></i>
+                </div>
+                <h3>Mobile Development</h3>
+                <p>
+                    I throw myself down among the tall grass by the stream as I lie close to the earth.
+                </p>
             </div>
         </div>
     </div>
 
     <div class="project">
         <div class="projectHeading">
-            <span>My Latest Project</span>
-            <p>There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered
-                alteration.</p>
+            <h1 class="projectHeading-1">My Latest Project</h1>
+            <h5 class="projectHeading-2">There are many variations of passages of Lorem Ipsum available, but the
+                majority have suffered
+                alteration.</h5>
         </div>
 
         <div class="projectBox">
-            <div class="projectInnerBox p1">
-                <p>Development</p>
-                <p> Getting tickets to the next show</p>
-                <button>CASE STUDY</button>
+            <div class="projectCard pb-1">
+                <div class="projectColor"></div>
+                <div class="projectContent">
+                    <h5>Development</h5>
+                    <h3>Getting tickets to the next show</h3>
+                    <button>CASE STUDY</button>
+                </div>
             </div>
-            <div class="projectInnerBox p2">
-                <p>Freelancer</p>
-                <p> You can see your Portfolio</p>
-                <button>CASE STUDY</button>
+            <div class="projectCard pb-2">
+                <div class="projectColor"></div>
+                <div class="projectContent">
+                    <h5>Development</h5>
+                    <h3>Getting tickets to the next show</h3>
+                    <button>CASE STUDY</button>
+                </div>
             </div>
-            <div class="projectInnerBox p3">
-                <p>App Development</p>
-                <p> The Language of Developer</p>
-                <button>CASE STUDY</button>
+            <div class="projectCard pb-3">
+                <div class="projectColor"></div>
+                <div class="projectContent">
+                    <h5>Development</h5>
+                    <h3>Getting tickets to the next show</h3>
+                    <button>CASE STUDY</button>
+                </div>
             </div>
-            <div class="projectInnerBox p4">
-                <p>Development</p>
-                <p> How To Find The Right Agency For Your Specific Product</p>
-                <button>CASE STUDY</button>
+            <div class="projectCard pb-4">
+                <div class="projectColor"></div>
+                <div class="projectContent">
+                    <h5>Development</h5>
+                    <h3>Getting tickets to the next show</h3>
+                    <button>CASE STUDY</button>
+                </div>
             </div>
-            <div class="projectInnerBox p5">
-                <p>Mobile App</p>
-                <p> The Ultimate Guide To Agency</p>
-                <button>CASE STUDY</button>
+            <div class="projectCard pb-5">
+                <div class="projectColor"></div>
+                <div class="projectContent">
+                    <h5>Development</h5>
+                    <h3>Getting tickets to the next show</h3>
+                    <button>CASE STUDY</button>
+                </div>
             </div>
-            <div class="projectInnerBox p6">
-                <p>Graphic</p>
-                <p> How To Turn Your Agency From Zero To Hero</p>
-                <button>CASE STUDY</button>
+            <div class="projectCard pb-6">
+                <div class="projectColor"></div>
+                <div class="projectContent">
+                    <h5>Development</h5>
+                    <h3>Getting tickets to the next show</h3>
+                    <button>CASE STUDY</button>
+                </div>
             </div>
         </div>
     </div>
 
     <div class="news">
         <div class="newsHeading">
-            <p>Latest News</p>
-            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                alteration.</p>
+            <h1 class="newsHeading-1">Latest News</h1>
+            <h5 class="newsHeading-2">There are many variations of passages of Lorem Ipsum available, but the majority
+                have suffered
+                alteration.</h5>
         </div>
 
         <div class="newsBox">
-            <div class="newsInnerBox">
-                <img class="newsImg-1" width="390" height="532" src="Assets/image/trydo-blog-new-10-390x532.jpg" alt="">
-                <p class="newsHeading-1">Development</p>
-                <p>Have You Heard? Agency Is Your Best Bet To Grow</p>
+            <div class="newsCard">
+                <div class="newsColor"></div>
+                <img src="./Assets/image/trydo-blog-new-10-390x532.jpg" alt="" class="newsImg">
+                <div class="newsContent">
+                    <h5>Development</h5>
+                    <p>Have You Heard? Agency Is Your Best Bet To Grow</p>
+                    <button>Read More</button>
+                </div>
             </div>
-            <div class="newsInnerBox">
-                <img class="newsImg-2" src="Assets/image/trydo-blog-new-7-390x532.jpg" alt="">
-                <p class="newsHeading-2">Development Gallery</p>
-                <p>Agency Works Only Under These Conditions</p>
+            <div class="newsCard">
+                <div class="newsColor"></div>
+                <img src="./Assets/image/trydo-blog-new-7-390x532.jpg" alt="" class="newsImg">
+                <div class="newsContent">
+                    <h5>Development Gallery</h5>
+                    <p>Agency Works Only Under These Conditions</p>
+                    <button>Read More</button>
+                </div>
             </div>
-            <div class="newsInnerBox">
-                <img class="newsImg-3" src="Assets/image/trydo-blog-new-8-390x532.jpg" alt="">
-                <p class="newsHeading-3">Development</p>
-                <p>Top 10 Tips To Grow Your Agency</p>
+            <div class="newsCard">
+                <div class="newsColor"></div>
+                <img src="./Assets/image/trydo-blog-new-8-390x532.jpg" alt="" class="newsImg">
+                <div class="newsContent">
+                    <h5>Development</h5>
+                    <p>Top 10 Tips To Grow Your Agency</p>
+                    <button>Read More</button>
+                </div>
             </div>
         </div>
+
     </div>
 
-    <div class="hire">
-        <div class="hireImg img-1">
-            <img src="Assets/image/about-6.jpg" alt="">
-        </div>
-        <div class="hireSection">
+    <div class="hire-me">
+        <div class="hireDes">
+            <img src="./Assets/image/about-6.jpg" class="hirePic hirePic-1" />
+            <div class="hireText">
+                <h2 class="hireText-1">Hire Me</h2>
+                <h5 class="hireText-2">I am available for freelance work. Connect with me via phone:
+                    <span class="hireHover hireHover-1">01912-123456</span> or email: <span
+                        class="hireHover hireHover-2">admin@example.com</span>
+                </h5>
 
-            <span class="hireSection-1">Hire Me</span>
-            <span class="hireSection-2">I am available for freelance work. Connect with me via phone:
-                <span class="hover"> 01912-123456 </span>or
-                <span class="hover"> admin@example.com</span>
-            </span>
-
-            <div class="saperation">
-                <span class="input">
-                    <input type="text" name="" id="" placeholder="Your Name*"></p>
-                </span>
-                <span class="input">
-                    <p><input type="text" name="" id="" placeholder="Your Email*"></p>
-                </span>
-                <span class="input">
-                    <p><input type="text" name="" id="" placeholder="Write a Subject"></p>
-                </span>
-                <span class="input">
-                    <p><textarea name="" id="" placeholder="Your Message"></textarea></p>
-                </span>
-                <span class="button">
+                <div class="input">
+                    <input class="input-1" type="text" placeholder="Your Name*">
+                </div>
+                <div class="input">
+                    <input class="input-2" type="email" placeholder="Your Email*">
+                </div>
+                <div class="input">
+                    <input class="input-3" type="text" placeholder="Write a subject">
+                </div>
+                <div class="input">
+                    <textarea class="input-4" placeholder="Your Message"></textarea>
+                </div>
+                <div class="button">
                     <button>SEND MESSAGE</button>
-                </span>
+                </div>
             </div>
-        </div>
-        <div class="hireImg img-2">
-            <img src="Assets/image/about-6.jpg" alt="">
+            <img src="./Assets/image/about-6.jpg" class="hirePic hirePic-2" />
         </div>
     </div>
+
+
 
     <footer class="footer">
         <div class="footerImg">
@@ -264,6 +320,13 @@
         </div>
     </footer>
 
+    <!-- <div class="night">
+        <i onclick="nightFunction()" class="fa-regular fa-moon fa-2xl" id="nightButton" style="color: #000000;"></i>
+    </div>
+    <div class="day">
+        <i onclick="dayFunction()" class="fa-solid fa-sun fa-2xl" id="dayButton" style="color: #000000;"></i>
+    </div> -->
+
     <!-- Font Awosome -->
     <script src="https://kit.fontawesome.com/fb8d4d1a1f.js" crossorigin="anonymous"></script>
     <script>
@@ -277,12 +340,159 @@
             sideBar.style.display = "none";
         }
 
-        // function educationShow() {
-        //     // const education = document.querySelector(".education");
-        //     // education.style.display = "inline";
+        // function nightFunction() {
+        //     const body = document.querySelector("body");
+        //     const navBackground = document.querySelector(".background");
+        //     const nav = document.querySelector(".nav");
+        //     const night = document.querySelector(".night");
+        //     const day = document.querySelector(".day");
 
-        //     const skil = document.querySelector(".skil")
-        //     skil.style.display = "none"
+        //     const rowTitle = document.querySelector(".title")
+        //     const rowMainText = document.querySelector(".main-text")
+
+        //     const about = document.querySelector(".about-me")
+        //     const aboutText = document.querySelector(".aboutText-1");
+        //     const aboutTextHover = document.querySelector(".hover");
+        //     const aboutTitle1 = document.querySelector(".aboutTitle-1")
+        //     const aboutTitle2 = document.querySelector(".aboutTitle-2")
+        //     const aboutTitle3 = document.querySelector(".aboutTitle-3");
+
+        //     const service = document.querySelector(".service");
+        //     const serviceHeading = document.querySelector(".serviceHeading-1");
+
+        //     const serviceCard1 = document.querySelector(".c-1");
+        //     const serviceCard2 = document.querySelector(".c-2");
+        //     const serviceCard3 = document.querySelector(".c-3");
+        //     const serviceCard4 = document.querySelector(".c-4");
+        //     const serviceCard5 = document.querySelector(".c-5");
+        //     const serviceCard6 = document.querySelector(".c-6");
+
+        //     const project = document.querySelector(".project")
+        //     const projectHeading = document.querySelector(".projectHeading-1")
+
+        //     const news = document.querySelector(".news");
+        //     const newsHeading = document.querySelector(".newsHeading-1")
+
+        //     const hire = document.querySelector(".hire-me");
+        //     const hireText = document.querySelector(".hireText-1");
+        //     const hireHover1 = document.querySelector(".hireHover-1");
+        //     const hireHover2 = document.querySelector(".hireHover-2");
+
+        //     const input1 = document.querySelector(".input-1")
+        //     const input2 = document.querySelector(".input-2")
+        //     const input3 = document.querySelector(".input-3")
+        //     const input4 = document.querySelector(".input-4")
+
+        //     const footer = document.querySelector(".footer")
+
+        //     body.style.backgroundColor = "#101010";
+        //     // navBackground.style.filter = "brightness(0.7)";
+        //     // nav.style.color = "rgb(255, 255, 255)"
+        //     service.style.backgroundColor = "#101010"
+        //     serviceHeading.style.color = "#fff";
+
+        //     // rowTitle.style.color = "white"
+        //     // rowMainText.style.color = "white"
+        //     about.style.backgroundColor = "#191919"
+        //     aboutText.style.color = "white"
+        //     aboutTextHover.style.color = "white"
+        //     aboutTitle1.style.color = "white"
+        //     aboutTitle2.style.color = "white"
+        //     aboutTitle3.style.color = "white"
+
+        //     aboutTextHover.addEventListener('mouseover', () => {
+        //         aboutTextHover.style.color = 'rgb(249, 0, 77)';
+        //         aboutTextHover.style.transition = "all 0.3s ease";
+        //     });
+        //     aboutTextHover.addEventListener('mouseout', () => {
+        //         aboutTextHover.style.color = 'white';
+        //     });
+
+        //     aboutTitle1.addEventListener('mouseover', () => {
+        //         aboutTitle1.style.color = 'rgb(249, 0, 77)';
+        //         aboutTitle1.style.transition = "all 0.3s ease";
+        //     });
+        //     aboutTitle1.addEventListener('mouseout', () => {
+        //         aboutTitle1.style.color = 'white';
+        //     });
+
+        //     aboutTitle2.addEventListener('mouseover', () => {
+        //         aboutTitle2.style.color = 'rgb(249, 0, 77)';
+        //         aboutTitle1.style.transition = "all 0.3s ease";
+        //     });
+        //     aboutTitle2.addEventListener('mouseout', () => {
+        //         aboutTitle2.style.color = 'white';
+        //     });
+
+        //     aboutTitle3.addEventListener('mouseover', () => {
+        //         aboutTitle3.style.color = 'rgb(249, 0, 77)';
+        //         aboutTitle1.style.transition = "all 0.3s ease";
+        //     });
+        //     aboutTitle3.addEventListener('mouseout', () => {
+        //         aboutTitle3.style.color = 'white';
+        //     });
+
+        //     serviceCard1.style.backgroundColor = "black"
+        //     serviceCard1.style.color = "white"
+        //     serviceCard2.style.backgroundColor = "black"
+        //     serviceCard2.style.color = "white"
+        //     serviceCard3.style.backgroundColor = "black"
+        //     serviceCard3.style.color = "white"
+        //     serviceCard4.style.backgroundColor = "black"
+        //     serviceCard4.style.color = "white"
+        //     serviceCard5.style.backgroundColor = "black"
+        //     serviceCard5.style.color = "white"
+        //     serviceCard6.style.backgroundColor = "black"
+        //     serviceCard6.style.color = "white"
+
+        //     project.style.backgroundColor = "#191919"
+        //     projectHeading.style.color = "white"
+
+        //     news.style.backgroundColor = "#101010"
+        //     newsHeading.style.color = "white"
+
+        //     hire.style.backgroundColor = "#191919"
+        //     hireText.style.color = "white"
+        //     hireHover1.style.color = "white"
+        //     hireHover2.style.color = "white"
+
+        //     hireHover1.addEventListener('mouseover', () => {
+        //         hireHover1.style.color = 'rgb(249, 0, 77)';
+        //         hireHover1.style.transition = "all 0.3s ease";
+        //     });
+        //     hireHover1.addEventListener('mouseout', () => {
+        //         hireHover1.style.color = 'white';
+        //     });
+        //     hireHover2.addEventListener('mouseover', () => {
+        //         hireHover2.style.color = 'rgb(249, 0, 77)';
+        //         hireHover2.style.transition = "all 0.3s ease";
+        //     });
+        //     hireHover2.addEventListener('mouseout', () => {
+        //         hireHover2.style.color = 'white';
+        //     });
+
+        //     input1.style.color = "white"
+        //     input2.style.color = "white"
+        //     input3.style.color = "white"
+        //     input4.style.color = "white"
+
+        //     footer.style.backgroundColor = "#101010"
+
+        //     night.style.display = "none"
+
+        //     day.style.display = "flex"
+        // }
+
+        // function dayFunction() {
+        //     const body = document.querySelector("body");
+        //     const night = document.querySelector(".night");
+        //     const day = document.querySelector(".day");
+
+        //     body.style.backgroundColor = "white"
+
+        //     night.style.display = "flex"
+        //     day.style.display = "none"
+        //     console.log(body);
         // }
 
     </script>
