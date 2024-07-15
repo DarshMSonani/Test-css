@@ -1,0 +1,382 @@
+
+.rightArea {
+    /* background-image: url("./Assets/image/triangles.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: red; */
+    /* 676px -3px no-repeat */
+}
+
+/* 
+@media (min-width: 1400px) and (max-width: 1669px) {
+
+    .index .main,
+    .html-css_index .main,
+    .advanced-html-css_index .main {
+        background-position: 836px -3px;
+    }
+} */
+
+.rightArea {
+    background-image: url("./Assets/image/triangles.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 1500px;
+    margin: 0 auto;
+    /* width: 80%; */
+    color: red;
+}
+
+.group {
+    padding-top: 35px;
+    text-align: center;
+}
+
+.group h1 {
+    font-weight: 600;
+    font-size: 41px;
+    color: rgb(66, 68, 78);
+}
+
+.group p {
+    color: rgb(151, 153, 167);
+    font-weight: 300;
+    font-size: 21px;
+    margin-bottom: 28px;
+}
+
+.middleText {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+    /* width: 90%; */
+}
+
+.courseOverview {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.courseOverview ol li {
+    padding-top: 6px;
+}
+
+.middleFirstButton {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.middleFirstButton button {
+    background-color: #0087CC;
+    border: none;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.middleFirstButton button:hover {
+    background-color: #FF7B29;
+    transition: 0.3s ease;
+}
+
+.socialMidia {
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 3px;
+    margin-bottom: 27px;
+}
+
+.socialMidia i {
+    cursor: pointer;
+    color: #9799a7;
+}
+
+.socialMidia i:hover {
+    color: rgb(45, 179, 74);
+    transition: 0.3s ease;
+}
+
+.book {
+    padding: 27px 34px;
+    border: 1px ridge rgb(45, 179, 74);
+    background-color: #f2fcf4;
+    border-radius: 5px;
+    /* height: 300px; */
+    width: 90%;
+    margin-bottom: 28px;
+}
+
+
+.book img {
+    padding-top: 30px;
+    cursor: pointer;
+}
+
+.book h3 {
+    font-weight: 600;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+.book h3:hover {
+    color: rgb(255, 123, 21);
+    transition: 0.3s ease;
+}
+
+.book .bookDes {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 50px;
+    margin-bottom: 28px;
+    font-style: italic;
+}
+
+
+.book .bookSpan {
+    color: rgb(66, 68, 78);
+    font-weight: 600;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.book button {
+    background-color: rgb(45, 179, 74);
+    border: none;
+    color: white;
+    padding: 14px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.book button:hover {
+    background-color: rgb(255, 123, 21);
+    transition: 0.3s ease;
+}
+
+.book .link {
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+.book .link .bookLink {
+    color: #17c0da;
+    cursor: pointer;
+    text-decoration: underline rgb(102, 102, 102);
+}
+
+.book .link .bookLink:hover {
+    color: rgb(255, 123, 21);
+    transition: 0.3s ease;
+}
+
+.doubble {
+    border: 1px ridge rgb(102, 102, 102);
+    border-radius: 5px;
+    margin-bottom: 28px
+}
+
+.lessons {
+    padding: 27px 34px;
+    width: 90%;
+}
+
+.lessons h3 {
+    font-weight: 600;
+    font-size: 21px;
+    cursor: pointer;
+    color: rgb(45, 179, 74);
+}
+
+.lessons h3:hover {
+    color: rgb(255, 123, 21);
+    transition: 0.3s ease;
+}
+
+.lessons img {
+    cursor: pointer;
+    float: right;
+    height: 131px;
+    border-radius: 50%;
+    margin-bottom: 1px;
+    margin: -20.571 0 -27.429 34.286;
+}
+
+.lessons .lessonsDes {
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 50px;
+    margin-bottom: 28px;
+    font-style: italic;
+}
+
+.lessons .lessonsSpan {
+    color: #17c0da;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+
+.lessons button {
+    color: rgb(255, 255, 255);
+    background-color: #0087CC;
+    border: none;
+    padding: 14px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.lessons button:hover {
+    background-color: rgb(255, 123, 21);
+    transition: 0.3s ease;
+}
+
+.newsLetter {
+    padding: 27px 34px;
+    border-top: 1px ridge rgb(102, 102, 102);
+    width: 90%;
+}
+
+.newsLetter h3 {
+    color: rgb(45, 179, 74);
+    font-weight: 600;
+    font-size: 21px;
+}
+
+.newsLetter .newsLetterDes {
+    padding-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+.emailInput {
+    padding-top: 40px;
+}
+
+.emailInput input {
+    border: 1px ridge rgb(102, 102, 102);
+    padding: 13px 18px;
+    border-radius: 5px;
+    width: 210px;
+}
+
+.emailInput input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(102, 102, 102);
+}
+
+.emailInput input:focus {
+    border: none;
+    outline: 1px solid #0087CC;
+    transition: 0.3s ease-in-out;
+}
+
+.emailInput button {
+    background-color: #0087CC;
+    border: none;
+    padding: 13px 18px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: -6px;
+}
+
+.emailInput button:hover {
+    background-color: rgb(255, 123, 21);
+    transition: 0.3s ease;
+}
+
+.blank {
+    border: 1px solid rgb(102, 102, 102);
+    padding-top: 20px;
+    padding: 27px 34px;
+    border-radius: 5px;
+}
+
+.footer {
+    margin: 28px -35px;
+    padding: 27px 34px;
+    background-color: #EAEAED;
+    width: 160%;
+}
+
+
+@media only screen and (min-width:810px) {
+    .main {
+        display: flex;
+    }
+}
+
+@media (min-width: 650px) and (max-width: 800px),
+(min-width: 913px) {
+    .book img {
+        float: right;
+        margin: 0 -7.5px 0 30px;
+        margin: 0 -.53571429rem 0 2.14285714rem;
+    }
+}
+
+@media (min-width: 1670px) {
+    .index .main, .html-css_index .main, .advanced-html-css_index .main {
+        background-position: 100% -3px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1669px) {
+    .index .main, .html-css_index .main, .advanced-html-css_index .main {
+        background-position: 836px -3px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1399px) {
+    .index .main, .html-css_index .main, .advanced-html-css_index .main {
+        background-position: 750px -3px;
+    }
+}
+
+
+
+
+
+.middlearea {
+    background: #fff url(./Assets/image/triangles.png);
+    background-position: 676px -3px;
+    background-repeat: no-repeat;
+    background-size: auto 75%;
+}
+
+
+@media (min-width: 1670px) {
+
+    .middlearea {
+        background-position: 100% -3px;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1669px) {
+
+    .middlearea {
+        background-position: 836px -3px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1399px) {
+
+    .middlearea {
+        background-position: 750px -3px;
+    }
+}
