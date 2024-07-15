@@ -427,7 +427,7 @@ body {
 }
 
 .footer {
-    margin: 28px -35px;
+    margin: 0 -35px;
     padding: 27px 34px;
     background-color: #EAEAED;
     width: 100%;
