@@ -1,0 +1,630 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "whitney ssm a", "whitney ssm b", "lucida grande", "lucida sans", Verdana, Helvetica, Arial, sans-serif;
+    background-color: #373941;
+}
+
+.main {
+    margin: 0 auto;
+    width: 100%;
+
+    .sliderButton {
+        font-size: 16px;
+        margin: 0;
+        color: white;
+        padding: 25px 30px;
+        display: none;
+
+        #open {
+            cursor: pointer;
+        }
+
+        #close {
+            cursor: pointer;
+            display: none;
+        }
+
+        .sliderButtonText-1 {
+            text-align: center;
+            font-size: 14px;
+            font-weight: 300;
+            color: rgb(151, 153, 167);
+        }
+
+        .sliderButtonText-2 {
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+
+            &:hover {
+                color: rgb(45, 179, 74);
+                transition: all 0.3s ease;
+            }
+        }
+
+        @media only screen and (max-width:810px) {
+            & {
+                display: block;
+            }
+        }
+    }
+
+    .la-2 {
+        display: none;
+
+        // @media only screen and (max-width:810px) {
+        //     & {
+        //         display: block;
+        //     }
+        // }
+    }
+
+    .leftArea {
+
+        background-color: #373941;
+        // width: 350px;
+        max-width: 350px;
+
+        padding: 10px 0;
+
+        .header {
+            color: white;
+            padding: 0 35px;
+            margin: 36px 0 38px 0;
+
+            
+            p {
+                font-weight: 300;
+                font-size: 16px;
+                color: rgb(151, 153, 167);
+            }
+
+            h3 {
+                font-weight: 600;
+                font-size: 30px;
+            }
+        }
+
+        .leftContent {
+            padding: 0 35px;
+
+            .leftText {
+                margin-bottom: 1.71428571rem;
+
+                p {
+                    font-weight: 300;
+                    font-size: 16px;
+                    padding: 5px 0;
+                    color: rgb(151, 153, 167);
+                }
+
+                strong {
+                    cursor: pointer;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: white;
+                }
+
+                button {
+                    border: 0;
+                    padding: 14px 25px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    color: white;
+                    background-color: #0087CC;
+                    border-radius: 5px;
+                    height: 70px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #FF7B29;
+                        transition: 0.3s ease;
+                    }
+                }
+
+                p span {
+                    cursor: pointer;
+                    color: white;
+                }
+
+                strong:hover,
+                p span:hover {
+                    color: rgb(45, 179, 74);
+                    transition: 0.3s ease;
+                }
+
+                .sid-1 {
+                    padding-top: 30px;
+                }
+
+                .sid-2 {
+                    padding-bottom: 1px;
+                }
+            }
+        }
+
+
+        @media only screen and (max-width:810px) {
+            & {
+                display: none;
+            }
+        }
+
+    }
+
+    // Right Area
+
+    .middlearea {
+        background: #fff url(../Assets/image/triangles.png);
+        background-position: 676px -3px;
+        background-repeat: no-repeat;
+        background-size: auto 75%;
+        width: 100%;
+
+        .second {
+            padding: 0 40px;
+
+            .group {
+                padding-top: 35px;
+                text-align: center;
+                width: 100%;
+                max-width: 550px;
+
+                h1 {
+                    font-weight: 600;
+                    font-size: 41px;
+                    color: rgb(66, 68, 78);
+                }
+
+                p {
+                    color: rgb(151, 153, 167);
+                    font-weight: 300;
+                    font-size: 21px;
+                    margin-bottom: 28px;
+                }
+            }
+
+            .middleText {
+                font-weight: 400;
+                font-size: 16px;
+                color: rgb(102, 102, 102);
+                width: 100%;
+                max-width: 650px;
+            }
+
+            .courseOverview {
+                padding: 20px;
+                max-width: 500px;
+
+                ol li {
+                    padding-top: 6px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: rgb(255, 123, 21);
+                        transition: 0.3s ease;
+                    }
+                }
+
+                .co-1 {
+                    @media (min-width: 500px) {
+                        & {
+                            padding-right: 18px;
+                        }
+                    }
+                }
+
+                .co-2 {
+                    @media only screen and (max-width:500px) {
+                        & {
+                            padding: 0 20px;
+                        }
+                    }
+                }
+
+                @media (min-width: 500px) {
+                    & {
+                        float: left;
+                        width: 30%;
+                    }
+                }
+            }
+
+            .middleFirstButton {
+                padding-top: 50px;
+                max-width: 650px;
+                text-align: center;
+
+                button {
+                    background-color: #0087CC;
+                    border: none;
+                    padding: 20px 20px;
+                    border-radius: 5px;
+                    color: white;
+                    font-weight: 600;
+                    font-size: 16px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: #FF7B29;
+                        transition: 0.3s ease;
+                    }
+                }
+
+
+                @media only screen and (max-width:411px) {
+                    & {
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .socialMidia {
+                max-width: 650px;
+                text-align: center;
+                padding-top: 50px;
+                letter-spacing: 3px;
+                margin-bottom: 27px;
+
+                i {
+                    cursor: pointer;
+                    color: #9799a7;
+                }
+
+                i:hover {
+                    color: rgb(45, 179, 74);
+                    transition: 0.3s ease;
+                }
+            }
+
+            .book {
+                padding: 27px 34px;
+                border: 1px ridge rgb(45, 179, 74);
+                background-color: #f2fcf4;
+                border-radius: 5px;
+                max-width: 670px;
+                margin-bottom: 28px;
+
+                img {
+                    padding-top: 30px;
+                    cursor: pointer;
+                    max-width: 100%;
+
+                    @media only screen and (min-width: 650px) and (max-width: 800px),
+                    (min-width: 913px) {
+                        & {
+                            float: right;
+                        }
+                    }
+
+                    @media only screen and (min-width:300px) and (max-width:650px),
+                    (min-width: 800px) and (max-width: 913px) {
+                        & {
+                            display: block;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                    }
+                }
+
+                h3 {
+                    font-weight: 600;
+                    font-size: 27px;
+                    cursor: pointer;
+                }
+
+                h3:hover {
+                    color: rgb(255, 123, 21);
+                    transition: 0.3s ease;
+                }
+
+                .bookDes {
+                    font-weight: 400;
+                    font-size: 16px;
+                    padding-top: 50px;
+                    margin-bottom: 28px;
+                    font-style: italic;
+
+                    .bookSpan {
+                        color: rgb(66, 68, 78);
+                        font-weight: 600;
+                        font-size: 16px;
+                        font-style: normal;
+                    }
+                }
+
+                button {
+                    background-color: rgb(45, 179, 74);
+                    border: none;
+                    color: white;
+                    padding: 14px 25px;
+                    border-radius: 5px;
+                    font-weight: 600;
+                    font-size: 16px;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: rgb(255, 123, 21);
+                        transition: 0.3s ease;
+                    }
+                }
+
+                .link {
+                    padding-top: 20px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: rgb(102, 102, 102);
+
+                    .bookLink {
+                        color: #17c0da;
+                        cursor: pointer;
+                        text-decoration: underline rgb(102, 102, 102);
+
+                        &:hover {
+                            color: rgb(255, 123, 21);
+                            transition: 0.3s ease;
+                        }
+                    }
+                }
+
+
+            }
+
+            .doubble {
+                border: 1px ridge rgb(102, 102, 102);
+                border-radius: 5px;
+                margin-bottom: 28px;
+                max-width: 740px;
+
+                .lessons {
+                    padding: 27px 34px;
+
+                    h3 {
+                        font-weight: 600;
+                        font-size: 21px;
+                        cursor: pointer;
+                        color: rgb(45, 179, 74);
+
+                        &:hover {
+                            color: rgb(255, 123, 21);
+                            transition: 0.3s ease;
+                        }
+                    }
+
+                    img {
+                        cursor: pointer;
+                        height: 131px;
+                        border-radius: 50%;
+                        margin-bottom: 1px;
+
+                        @media only screen and (min-width:300px) and (max-width:650px),
+                        (min-width: 800px) and (max-width: 913px) {
+
+                            & {
+                                display: none;
+                            }
+                        }
+
+                        @media only screen and (min-width: 650px) and (max-width: 800px),
+                        (min-width: 913px) {
+                            & {
+                                float: right;
+                            }
+                        }
+
+                    }
+
+                    .lessonsDes {
+                        font-weight: 400;
+                        font-size: 16px;
+                        padding-top: 50px;
+                        margin-bottom: 28px;
+                        font-style: italic;
+
+                        .lessonsSpan {
+                            color: #17c0da;
+                            font-weight: 400;
+                            font-size: 16px;
+                            font-style: normal;
+                        }
+                    }
+
+                    button {
+                        color: rgb(255, 255, 255);
+                        background-color: #0087CC;
+                        border: none;
+                        padding: 14px 25px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        font-weight: 600;
+                        font-size: 16px;
+
+                        &:hover {
+                            background-color: rgb(255, 123, 21);
+                            transition: 0.3s ease;
+                        }
+                    }
+                }
+
+                .newsLetter {
+                    padding: 27px 34px;
+                    border-top: 1px ridge rgb(102, 102, 102);
+
+                    h3 {
+                        color: rgb(45, 179, 74);
+                        font-weight: 600;
+                        font-size: 21px;
+                    }
+
+                    .newsLetterDes {
+                        padding-top: 50px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: rgb(102, 102, 102);
+                    }
+
+                    .emailInput {
+                        padding-top: 40px;
+
+                        input {
+                            border: 1px ridge rgb(102, 102, 102);
+                            padding: 13px 18px;
+                            border-radius: 5px;
+                            width: 50%;
+                            max-width: 600px;
+
+                            &::placeholder {
+                                font-weight: 400;
+                                font-size: 16px;
+                                color: rgb(102, 102, 102);
+                            }
+
+                            &:focus {
+                                border: none;
+                                outline: 1px solid #0087CC;
+                                transition: 0.3s ease-in-out;
+                            }
+
+                            @media only screen and (max-width:478px) {
+                                & {
+                                    width: 90%;
+                                }
+                            }
+                        }
+
+                        button {
+                            background-color: #0087CC;
+                            border: none;
+                            padding: 13px 18px;
+                            border-radius: 5px;
+                            color: white;
+                            font-weight: 600;
+                            font-size: 16px;
+                            cursor: pointer;
+                            margin-left: -6px;
+
+                            &:hover {
+                                background-color: rgb(255, 123, 21);
+                                transition: 0.3s ease;
+                            }
+
+                            @media only screen and (max-width:478px) {
+
+                                & {
+                                    width: 100%;
+                                    margin-top: 10px;
+                                    margin-left: 5px;
+                                }
+
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .footer {
+                margin: 0 -35px;
+                padding: 27px 34px;
+                background-color: #EAEAED;
+                width: 100%;
+
+                .footerText {
+                    max-width: 687px;
+
+                    span {
+                        button {
+                            cursor: pointer;
+                            background-color: black;
+                            color: white;
+                            border: none;
+                            padding: 1px 12px;
+                            height: 20px;
+                            border-radius: 5px;
+                        }
+
+
+                        @media only screen and (max-width:520px) {
+                            & {
+                                text-align: center;
+                                font-size: 12px;
+                            }
+                        }
+
+                        @media (min-width: 500px) {
+                            & {
+                                float: right;
+                            }
+                        }
+
+                    }
+
+                    @media only screen and (max-width:520px) {
+                        & {
+                            display: none;
+                        }
+                    }
+                }
+
+                .footerText-1 {
+                    max-width: 678px;
+                    text-align: center;
+                    display: none;
+
+                    p button {
+                        cursor: pointer;
+                        background-color: black;
+                        color: white;
+                        border: none;
+                        padding: 1px 12px;
+                        height: 20px;
+                        border-radius: 5px;
+                    }
+
+                    @media only screen and (max-width:520px) {
+
+                        & {
+                            display: block;
+                        }
+                    }
+                }
+
+            }
+        }
+
+        @media (min-width: 1670px) {
+
+            & {
+                background-position: 100% -3px;
+            }
+        }
+
+        @media (min-width: 1400px) and (max-width: 1669px) {
+
+            & {
+                background-position: 836px -3px;
+            }
+        }
+
+        @media (min-width: 801px) and (max-width: 1399px) {
+
+            & {
+                background-position: 750px -3px;
+            }
+        }
+    }
+
+    @media only screen and (min-width:810px) {
+        & {
+            display: flex;
+        }
+    }
+}

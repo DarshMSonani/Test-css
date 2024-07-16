@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "whitney ssm a", "whitney ssm b", "lucida grande", "lucida sans", Verdana, Helvetica, Arial, sans-serif;
+  background-color: #373941;
+}
+
+.main {
+  margin: 0 auto;
+  width: 100%;
+}
+.main .sliderButton {
+  font-size: 16px;
+  margin: 0;
+  color: white;
+  padding: 25px 30px;
+  display: none;
+}
+.main .sliderButton #open {
+  cursor: pointer;
+}
+.main .sliderButton #close {
+  cursor: pointer;
+  display: none;
+}
+.main .sliderButton .sliderButtonText-1 {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(151, 153, 167);
+}
+.main .sliderButton .sliderButtonText-2 {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.main .sliderButton .sliderButtonText-2:hover {
+  color: rgb(45, 179, 74);
+  transition: all 0.3s ease;
+}
+@media only screen and (max-width: 810px) {
+  .main .sliderButton {
+    display: block;
+  }
+}
+.main .la-2 {
+  display: none;
+}
+.main .leftArea {
+  background-color: #373941;
+  max-width: 350px;
+  padding: 10px 0;
+}
+.main .leftArea .header {
+  color: white;
+  padding: 0 35px;
+  margin: 36px 0 38px 0;
+}
+.main .leftArea .header p {
+  font-weight: 300;
+  font-size: 16px;
+  color: rgb(151, 153, 167);
+}
+.main .leftArea .header h3 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.main .leftArea .leftContent {
+  padding: 0 35px;
+}
+.main .leftArea .leftContent .leftText {
+  margin-bottom: 1.71428571rem;
+}
+.main .leftArea .leftContent .leftText p {
+  font-weight: 300;
+  font-size: 16px;
+  padding: 5px 0;
+  color: rgb(151, 153, 167);
+}
+.main .leftArea .leftContent .leftText strong {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+}
+.main .leftArea .leftContent .leftText button {
+  border: 0;
+  padding: 14px 25px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  background-color: #0087CC;
+  border-radius: 5px;
+  height: 70px;
+  cursor: pointer;
+}
+.main .leftArea .leftContent .leftText button:hover {
+  background-color: #FF7B29;
+  transition: 0.3s ease;
+}
+.main .leftArea .leftContent .leftText p span {
+  cursor: pointer;
+  color: white;
+}
+.main .leftArea .leftContent .leftText strong:hover,
+.main .leftArea .leftContent .leftText p span:hover {
+  color: rgb(45, 179, 74);
+  transition: 0.3s ease;
+}
+.main .leftArea .leftContent .leftText .sid-1 {
+  padding-top: 30px;
+}
+.main .leftArea .leftContent .leftText .sid-2 {
+  padding-bottom: 1px;
+}
+@media only screen and (max-width: 810px) {
+  .main .leftArea {
+    display: none;
+  }
+}
+.main .middlearea {
+  background: #fff url(../Assets/image/triangles.png);
+  background-position: 676px -3px;
+  background-repeat: no-repeat;
+  background-size: auto 75%;
+  width: 100%;
+}
+.main .middlearea .second {
+  padding: 0 40px;
+}
+.main .middlearea .second .group {
+  padding-top: 35px;
+  text-align: center;
+  width: 100%;
+  max-width: 550px;
+}
+.main .middlearea .second .group h1 {
+  font-weight: 600;
+  font-size: 41px;
+  color: rgb(66, 68, 78);
+}
+.main .middlearea .second .group p {
+  color: rgb(151, 153, 167);
+  font-weight: 300;
+  font-size: 21px;
+  margin-bottom: 28px;
+}
+.main .middlearea .second .middleText {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  width: 100%;
+  max-width: 650px;
+}
+.main .middlearea .second .courseOverview {
+  padding: 20px;
+  max-width: 500px;
+}
+.main .middlearea .second .courseOverview ol li {
+  padding-top: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+}
+.main .middlearea .second .courseOverview ol li:hover {
+  color: rgb(255, 123, 21);
+  transition: 0.3s ease;
+}
+@media (min-width: 500px) {
+  .main .middlearea .second .courseOverview .co-1 {
+    padding-right: 18px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .main .middlearea .second .courseOverview .co-2 {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 500px) {
+  .main .middlearea .second .courseOverview {
+    float: left;
+    width: 30%;
+  }
+}
+.main .middlearea .second .middleFirstButton {
+  padding-top: 50px;
+  max-width: 650px;
+  text-align: center;
+}
+.main .middlearea .second .middleFirstButton button {
+  background-color: #0087CC;
+  border: none;
+  padding: 20px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.main .middlearea .second .middleFirstButton button:hover {
+  background-color: #FF7B29;
+  transition: 0.3s ease;
+}
+@media only screen and (max-width: 411px) {
+  .main .middlearea .second .middleFirstButton {
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
+.main .middlearea .second .socialMidia {
+  max-width: 650px;
+  text-align: center;
+  padding-top: 50px;
+  letter-spacing: 3px;
+  margin-bottom: 27px;
+}
+.main .middlearea .second .socialMidia i {
+  cursor: pointer;
+  color: #9799a7;
+}
+.main .middlearea .second .socialMidia i:hover {
+  color: rgb(45, 179, 74);
+  transition: 0.3s ease;
+}
+.main .middlearea .second .book {
+  padding: 27px 34px;
+  border: 1px ridge rgb(45, 179, 74);
+  background-color: #f2fcf4;
+  border-radius: 5px;
+  max-width: 670px;
+  margin-bottom: 28px;
+}
+.main .middlearea .second .book img {
+  padding-top: 30px;
+  cursor: pointer;
+  max-width: 100%;
+}
+@media only screen and (min-width: 650px) and (max-width: 800px), (min-width: 913px) {
+  .main .middlearea .second .book img {
+    float: right;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 650px), (min-width: 800px) and (max-width: 913px) {
+  .main .middlearea .second .book img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.main .middlearea .second .book h3 {
+  font-weight: 600;
+  font-size: 27px;
+  cursor: pointer;
+}
+.main .middlearea .second .book h3:hover {
+  color: rgb(255, 123, 21);
+  transition: 0.3s ease;
+}
+.main .middlearea .second .book .bookDes {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 50px;
+  margin-bottom: 28px;
+  font-style: italic;
+}
+.main .middlearea .second .book .bookDes .bookSpan {
+  color: rgb(66, 68, 78);
+  font-weight: 600;
+  font-size: 16px;
+  font-style: normal;
+}
+.main .middlearea .second .book button {
+  background-color: rgb(45, 179, 74);
+  border: none;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+}
+.main .middlearea .second .book button:hover {
+  background-color: rgb(255, 123, 21);
+  transition: 0.3s ease;
+}
+.main .middlearea .second .book .link {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+}
+.main .middlearea .second .book .link .bookLink {
+  color: #17c0da;
+  cursor: pointer;
+  -webkit-text-decoration: underline rgb(102, 102, 102);
+          text-decoration: underline rgb(102, 102, 102);
+}
+.main .middlearea .second .book .link .bookLink:hover {
+  color: rgb(255, 123, 21);
+  transition: 0.3s ease;
+}
+.main .middlearea .second .doubble {
+  border: 1px ridge rgb(102, 102, 102);
+  border-radius: 5px;
+  margin-bottom: 28px;
+  max-width: 740px;
+}
+.main .middlearea .second .doubble .lessons {
+  padding: 27px 34px;
+}
+.main .middlearea .second .doubble .lessons h3 {
+  font-weight: 600;
+  font-size: 21px;
+  cursor: pointer;
+  color: rgb(45, 179, 74);
+}
+.main .middlearea .second .doubble .lessons h3:hover {
+  color: rgb(255, 123, 21);
+  transition: 0.3s ease;
+}
+.main .middlearea .second .doubble .lessons img {
+  cursor: pointer;
+  height: 131px;
+  border-radius: 50%;
+  margin-bottom: 1px;
+}
+@media only screen and (min-width: 300px) and (max-width: 650px), (min-width: 800px) and (max-width: 913px) {
+  .main .middlearea .second .doubble .lessons img {
+    display: none;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 800px), (min-width: 913px) {
+  .main .middlearea .second .doubble .lessons img {
+    float: right;
+  }
+}
+.main .middlearea .second .doubble .lessons .lessonsDes {
+  font-weight: 400;
+  font-size: 16px;
+  padding-top: 50px;
+  margin-bottom: 28px;
+  font-style: italic;
+}
+.main .middlearea .second .doubble .lessons .lessonsDes .lessonsSpan {
+  color: #17c0da;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+}
+.main .middlearea .second .doubble .lessons button {
+  color: rgb(255, 255, 255);
+  background-color: #0087CC;
+  border: none;
+  padding: 14px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+.main .middlearea .second .doubble .lessons button:hover {
+  background-color: rgb(255, 123, 21);
+  transition: 0.3s ease;
+}
+.main .middlearea .second .doubble .newsLetter {
+  padding: 27px 34px;
+  border-top: 1px ridge rgb(102, 102, 102);
+}
+.main .middlearea .second .doubble .newsLetter h3 {
+  color: rgb(45, 179, 74);
+  font-weight: 600;
+  font-size: 21px;
+}
+.main .middlearea .second .doubble .newsLetter .newsLetterDes {
+  padding-top: 50px;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+}
+.main .middlearea .second .doubble .newsLetter .emailInput {
+  padding-top: 40px;
+}
+.main .middlearea .second .doubble .newsLetter .emailInput input {
+  border: 1px ridge rgb(102, 102, 102);
+  padding: 13px 18px;
+  border-radius: 5px;
+  width: 50%;
+  max-width: 600px;
+}
+.main .middlearea .second .doubble .newsLetter .emailInput input::-moz-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+}
+.main .middlearea .second .doubble .newsLetter .emailInput input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+}
+.main .middlearea .second .doubble .newsLetter .emailInput input:focus {
+  border: none;
+  outline: 1px solid #0087CC;
+  transition: 0.3s ease-in-out;
+}
+@media only screen and (max-width: 478px) {
+  .main .middlearea .second .doubble .newsLetter .emailInput input {
+    width: 90%;
+  }
+}
+.main .middlearea .second .doubble .newsLetter .emailInput button {
+  background-color: #0087CC;
+  border: none;
+  padding: 13px 18px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: -6px;
+}
+.main .middlearea .second .doubble .newsLetter .emailInput button:hover {
+  background-color: rgb(255, 123, 21);
+  transition: 0.3s ease;
+}
+@media only screen and (max-width: 478px) {
+  .main .middlearea .second .doubble .newsLetter .emailInput button {
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+}
+.main .middlearea .second .footer {
+  margin: 0 -35px;
+  padding: 27px 34px;
+  background-color: #EAEAED;
+  width: 100%;
+}
+.main .middlearea .second .footer .footerText {
+  max-width: 687px;
+}
+.main .middlearea .second .footer .footerText span button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1px 12px;
+  height: 20px;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 520px) {
+  .main .middlearea .second .footer .footerText span {
+    text-align: center;
+    font-size: 12px;
+  }
+}
+@media (min-width: 500px) {
+  .main .middlearea .second .footer .footerText span {
+    float: right;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .main .middlearea .second .footer .footerText {
+    display: none;
+  }
+}
+.main .middlearea .second .footer .footerText-1 {
+  max-width: 678px;
+  text-align: center;
+  display: none;
+}
+.main .middlearea .second .footer .footerText-1 p button {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 1px 12px;
+  height: 20px;
+  border-radius: 5px;
+}
+@media only screen and (max-width: 520px) {
+  .main .middlearea .second .footer .footerText-1 {
+    display: block;
+  }
+}
+@media (min-width: 1670px) {
+  .main .middlearea {
+    background-position: 100% -3px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1669px) {
+  .main .middlearea {
+    background-position: 836px -3px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1399px) {
+  .main .middlearea {
+    background-position: 750px -3px;
+  }
+}
+@media only screen and (min-width: 810px) {
+  .main {
+    display: flex;
+  }
+}/*# sourceMappingURL=main.css.map */

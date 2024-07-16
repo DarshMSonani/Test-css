@@ -13,18 +13,20 @@
     <link rel="manifest" href="./Assets/Favicon/site.webmanifest">
 
     <!-- Css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./sass/main.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 
 <body>
     <div class="main">
         <div class="sliderButton">
-            <span><i onclick="sliderOpen()" class="fa-solid fa-bars fa-2xl"></i></span>
+            <i onclick="sliderOpen()" class="fa-solid fa-bars fa-2xl" id="open"></i>
+            <i onclick="sliderClose()" class="fa-solid fa-xmark fa-2xl" id="close"></i>
 
             <p class="sliderButtonText-1">Learn to Code Advanced</p>
             <h3 class="sliderButtonText-2">HTML & CSS</h3>
         </div>
-        <div class="leftArea">
+        <div class="leftArea la-1">
             <div class="header">
                 <p>Learn to Code Advanced</p>
                 <h3>HTML & CSS</h3>
@@ -92,8 +94,8 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="leftArea-2">
-            <div class="header">
+        <div class="leftArea la-2">
+            <div class="header lh-2">
                 <p>Learn to Code Advanced</p>
                 <h3>HTML & CSS</h3>
             </div>
@@ -159,7 +161,7 @@
                     <button>Get Course Recommendations</button>
                 </div>
             </div>
-        </div> -->
+        </div>
 
         <div class="middlearea">
             <div class="second">
@@ -270,9 +272,73 @@
 
     <script>
         function sliderOpen() {
-            const slider = document.querySelector(".leftArea-2");
 
-            slider.style.display = "block";
+            const sliderButton = document.querySelector(".sliderButton")
+
+            const slider1 = document.querySelector(".la-1");
+            const slider2 = document.querySelector(".la-2");
+
+            const open = document.querySelector("#open");
+            const close = document.querySelector("#close");
+
+            const sliderButtonText1 = document.querySelector(".sliderButtonText-1");
+            const sliderButtonText2 = document.querySelector(".sliderButtonText-2");
+
+            const middlearea = document.querySelector(".middlearea");
+
+            const header = document.querySelector(".lh-2");
+
+            // slider1.style.display = "none";
+            slider2.style.display = "block";
+            slider2.style.transition = "0.3s ease;";
+
+            open.style.display = "none"
+            close.style.display = "block"
+
+            header.style.display = "none"
+
+            sliderButton.style.backgroundColor = "#373941"
+
+            middlearea.style.position = "absolute"
+            middlearea.style.zIndex = "-1"
+            middlearea.style.top = "100px"
+            // middlearea.style.left = "50%"
+
+            // sliderButtonText1.style.display = "none"
+            // sliderButtonText2.style.display = "none"
+        }
+
+        function sliderClose() {
+
+            const slider1 = document.querySelector(".la-1");
+            const slider2 = document.querySelector(".la-2");
+
+            const open = document.querySelector("#open");
+            const close = document.querySelector("#close");
+
+            const sliderButtonText1 = document.querySelector(".sliderButtonText-1");
+            const sliderButtonText2 = document.querySelector(".sliderButtonText-2");
+
+            const middlearea = document.querySelector(".middlearea");
+
+            const header = document.querySelector(".lh-2");
+
+            // slider1.style.display = "none";
+            slider2.style.display = "none";
+
+            open.style.display = "block"
+            close.style.display = "none"
+
+            middlearea.style.position = "relative"
+            // middlearea.style.zIndex = "0"
+            middlearea.style.top = "0"
+            middlearea.style.bottom = "0"
+            middlearea.style.left = "0"
+
+            // header.style.display = "block"
+
+            sliderButtonText1.style.display = "block"
+            sliderButtonText2.style.display = "block"
         }
     </script>
     <!-- Font Awosome -->
