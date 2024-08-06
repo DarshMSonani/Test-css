@@ -84,7 +84,15 @@ body {
     padding: 10px 11px;
 }
 
-.left ul li:hover {
+.left ul li a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px 11px;
+}
+
+.left ul li:hover,
+.left ul li a:hover {
     color: rgb(249, 0, 77);
     transition: 0.2s ease-in-out;
     text-decoration: underline;
